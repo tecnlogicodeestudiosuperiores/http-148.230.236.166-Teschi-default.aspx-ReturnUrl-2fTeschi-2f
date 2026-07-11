@@ -1,168 +1,138 @@
-body
-{    
-    /* #FDEBD0; */
-    background  : #C8EBB1;/* #C8EBB1;*/ 
-    font-size   : 1.75em;
+/* Estilos globales y contenedores principales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#sec_todo
-{    
-    border-radius :0.5em;  
-    max-width     :1170px; 
-    background    :white;
-    margin        :0.5em auto;    
-    }
-
-header
-{
-    color         :white;
-    background    :#91c470;/* #FBB15F;*/
-    margin        :0.5em auto;
-    max-width     :1170px;
-    padding       :0.25em;
-    font-weight   :bold;
-    border-radius :0.5em;
-    color:#cc6600;  
- }
-    
-#art_imgLogo,#asi_NombreEscuela
-{
-    display          :inline-block;
-    margin           :0.5em auto;
-    max-width        :1170px;
-    min-width        :210px;
-    padding          :0.25em;
-    vertical-align   :top;  
-    width            :10%;
-    text-align       :center;
+#sec_todo {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-#asi_NombreEscuela
-{
-    text-align       :center;
-    width            :75%;
-}
- 
- #imgLogo
- {
-     margin          :0.5em auto;
-     height          :90px;
-     width           :180px;
- }
-
-#contenedor_Principal
-{
-    background       :white;  
+/* Encabezado Institucional */
+#sec_encabezado {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid #D4AF37; /* Dorado institucional */
+    background-color: #ffffff;
 }
 
-#art_menu,#asi_ContenedorFinal
-{
-    background       :white;
-    display          :inline-block;
-    margin           :0.5em auto;
-    max-width        :1170px;
-    min-width        :200px;
-    padding          :0.25em;
-    vertical-align   :top;  
-    width            :55%;
-    text-align       :center;
+#art_imgLogo {
+    flex: 0 0 150px;
 }
 
-#img_Candado
-{
-    padding          :0.30em;
-    height           :150px;
-    width            :200px;   
-    min-width        :180px;
- 
+#imgLogo {
+    max-width: 100%;
+    height: auto;
 }
 
-
-#asi_ContenedorFinal
-{
-    width     :40%;
+#asi_NombreEscuela {
+    flex: 1;
+    padding-left: 20px;
 }
 
-
-#art_Login
-{
-    font-family    :Calibri;
-    border-radius  :0.5em;
-    padding        :0.25em;
-    color          :#cc6600;
-    background     :#91c470;/* FBB15F;*/
-    margin         :0.5em auto;
-    width          :70%;
-    min-width      :180px;
-    box-shadow     :10px 10px 5px #888;
-    min-width      :170px;
-}
- 
-footer
-{
-    color:white;
-    background      : #91c470;/*#FBB15F;*/
-    margin          :0.5em auto; 
-    max-width       :1170px;
-    padding         :0.25em;
-    font-family     :Calibri;
-    text-align      :center;
-    font-size       :0.5em;
-    border-radius   :0.5em;
+#asi_NombreEscuela h1 {
+    color: #621132; /* Guinda oficial */
+    font-size: 1.4rem;
+    margin: 0 0 5px 0;
 }
 
-.classTextbox
-{
-    border-radius   :0.5em;
-    margin          :0.5em auto;
-    text-align      :center;
-    font-family     :Calibri;
-    min-width       :160px;
+.parrafo1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #545454;
+    margin: 0;
 }
 
-.classLabel
-{
-    border-radius   :0.5em;    
-    margin          :0.5em auto;
-    text-align      :center;
-    font-family     :Calibri;
-    min-width       :160px;
-    font-size       :12px;
-    }
-
-.classButton
-{
-    border-radius  :0.5em;    
-    color          :white;
-    background     :#91c470;/*#cc6c40;*/
-    /*#ffcc99;
-    color         :#ffcc99;
-    background    :#996633;*/
+/* Cuerpo Intermedio (Login) */
+#contenedor_Principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    flex: 1;
+    gap: 40px;
 }
 
-.parrafo
-{
-    font-size    :0.7em;
-    font-style   :italic;
-    /*color:#ffcc99;*/
-     color:white;
-    text-shadow  :5px 5px 5px #cc6c40;
+#art_menu {
+    display: flex;
+    justify-content: center;
 }
 
-.parrafo1
-{
-    font-size    :0.9em;
-    font-style   :italic;
-    /*color:#ffcc99;*/
-    color:white;
-    text-shadow  :5px 5px 5px #1F7A40;
+#asi_ContenedorFinal {
+    background: #fdfdfd;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-h1
-{    
-    color:white;
-    text-shadow  :5px 5px 5px #1F7A40;/*#cc6c40;*/
-     /*-webkit-text-fill-color: black;*/
-  /*-webkit-text-stroke-color: #1F7A40;
-  -webkit-text-stroke-width: 0.75px;*/  
+#art_Login {
+    width: 280px;
+}
+
+/* Elementos de Formulario */
+.classTextbox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+}
+
+.classButton {
+    width: 100%;
+    padding: 11px;
+    background-color: #621132;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.classButton:hover {
+    background-color: #4a0c25;
+}
+
+#art_olvido {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.classLabel {
+    color: #621132;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.classLabel:hover {
+    text-decoration: underline;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #621132;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+footer p {
+    margin: 5px 0 0 0;
+    color: #D4AF37;
 }
