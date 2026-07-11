@@ -1,0 +1,168 @@
+body
+{    
+    /* #FDEBD0; */
+    background  : #C8EBB1;/* #C8EBB1;*/ 
+    font-size   : 1.75em;
+}
+
+#sec_todo
+{    
+    border-radius :0.5em;  
+    max-width     :1170px; 
+    background    :white;
+    margin        :0.5em auto;    
+    }
+
+header
+{
+    color         :white;
+    background    :#91c470;/* #FBB15F;*/
+    margin        :0.5em auto;
+    max-width     :1170px;
+    padding       :0.25em;
+    font-weight   :bold;
+    border-radius :0.5em;
+    color:#cc6600;  
+ }
+    
+#art_imgLogo,#asi_NombreEscuela
+{
+    display          :inline-block;
+    margin           :0.5em auto;
+    max-width        :1170px;
+    min-width        :210px;
+    padding          :0.25em;
+    vertical-align   :top;  
+    width            :10%;
+    text-align       :center;
+}
+
+#asi_NombreEscuela
+{
+    text-align       :center;
+    width            :75%;
+}
+ 
+ #imgLogo
+ {
+     margin          :0.5em auto;
+     height          :90px;
+     width           :180px;
+ }
+
+#contenedor_Principal
+{
+    background       :white;  
+}
+
+#art_menu,#asi_ContenedorFinal
+{
+    background       :white;
+    display          :inline-block;
+    margin           :0.5em auto;
+    max-width        :1170px;
+    min-width        :200px;
+    padding          :0.25em;
+    vertical-align   :top;  
+    width            :55%;
+    text-align       :center;
+}
+
+#img_Candado
+{
+    padding          :0.30em;
+    height           :150px;
+    width            :200px;   
+    min-width        :180px;
+ 
+}
+
+
+#asi_ContenedorFinal
+{
+    width     :40%;
+}
+
+
+#art_Login
+{
+    font-family    :Calibri;
+    border-radius  :0.5em;
+    padding        :0.25em;
+    color          :#cc6600;
+    background     :#91c470;/* FBB15F;*/
+    margin         :0.5em auto;
+    width          :70%;
+    min-width      :180px;
+    box-shadow     :10px 10px 5px #888;
+    min-width      :170px;
+}
+ 
+footer
+{
+    color:white;
+    background      : #91c470;/*#FBB15F;*/
+    margin          :0.5em auto; 
+    max-width       :1170px;
+    padding         :0.25em;
+    font-family     :Calibri;
+    text-align      :center;
+    font-size       :0.5em;
+    border-radius   :0.5em;
+}
+
+.classTextbox
+{
+    border-radius   :0.5em;
+    margin          :0.5em auto;
+    text-align      :center;
+    font-family     :Calibri;
+    min-width       :160px;
+}
+
+.classLabel
+{
+    border-radius   :0.5em;    
+    margin          :0.5em auto;
+    text-align      :center;
+    font-family     :Calibri;
+    min-width       :160px;
+    font-size       :12px;
+    }
+
+.classButton
+{
+    border-radius  :0.5em;    
+    color          :white;
+    background     :#91c470;/*#cc6c40;*/
+    /*#ffcc99;
+    color         :#ffcc99;
+    background    :#996633;*/
+}
+
+.parrafo
+{
+    font-size    :0.7em;
+    font-style   :italic;
+    /*color:#ffcc99;*/
+     color:white;
+    text-shadow  :5px 5px 5px #cc6c40;
+}
+
+.parrafo1
+{
+    font-size    :0.9em;
+    font-style   :italic;
+    /*color:#ffcc99;*/
+    color:white;
+    text-shadow  :5px 5px 5px #1F7A40;
+}
+
+h1
+{    
+    color:white;
+    text-shadow  :5px 5px 5px #1F7A40;/*#cc6c40;*/
+     /*-webkit-text-fill-color: black;*/
+  /*-webkit-text-stroke-color: #1F7A40;
+  -webkit-text-stroke-width: 0.75px;*/  
+}
